@@ -18,9 +18,9 @@ export default function App() {
   return (
     <div>
       <header>
-    <div class="container-fluid text-center cabecera my-2">
-      <div class="row">
-        <div class="col-xl-12" >
+    <div className="container-fluid text-center cabecera my-2">
+      <div className="row">
+        <div className="col-xl-12" >
           <Header/>
         </div>
       </div>
@@ -28,9 +28,9 @@ export default function App() {
     
   </header>
     <nav> 
-      <div class= "container-fluid text-center barra my-2">
-        <div class="row">
-          <div class="col-12">
+      <div className= "container-fluid text-center barra my-2">
+        <div className="row">
+          <div className="col-12">
             <Navbar/>
           </div>
         </div>
@@ -38,17 +38,17 @@ export default function App() {
     </nav>
 
   <main>
-    <div class="container-fluid text-center tarjetas my-2 ">
-      <div class="row">
-        <div class="col-12" >
+    <div className="container-fluid text-center tarjetas my-2 ">
+      <div className="row">
+        <div className="col-12" >
           <Cards/>
         </div>
       </div>
     </div>
 
-    <div class="container-fluid text-center registro my-2">
-      <div class="row">
-        <div class="col-12">
+    <div className="container-fluid text-center registro my-2">
+      <div className="row">
+        <div className="col-12">
           <Formulario/>
         </div>
       </div>
