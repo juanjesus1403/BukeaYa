@@ -21,12 +21,12 @@ export default function App() {
           <Navbar/>
   
   <main>
-    <div className="container-fluid text-center tarjetas  ">
-      <div className="row">
-        <div className="col-12" >
+    {/* <div className="container-fluid text-center tarjetas  ">
+      <div className="row"> */}
+        <div className="col-12 tarjetas" >
           <Cards/>
-        </div>
-      </div>
+        {/* </div>
+      </div> */}
     </div>
 
     <div className="container-fluid text-center registro my-2">
