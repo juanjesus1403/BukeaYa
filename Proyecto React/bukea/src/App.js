@@ -17,28 +17,11 @@ import "./components/Formulario/Formulario.css"
 export default function App() {
   return (
     <div>
-      <header>
-    <div className="container-fluid text-center cabecera my-2">
-      <div className="row">
-        <div className="col-xl-12" >
           <Header/>
-        </div>
-      </div>
-    </div>
-    
-  </header>
-    <nav> 
-      <div className= "container-fluid text-center barra my-2">
-        <div className="row">
-          <div className="col-12">
-            <Navbar/>
-          </div>
-        </div>
-      </div>
-    </nav>
-
+          <Navbar/>
+  
   <main>
-    <div className="container-fluid text-center tarjetas my-2 ">
+    <div className="container-fluid text-center tarjetas  ">
       <div className="row">
         <div className="col-12" >
           <Cards/>

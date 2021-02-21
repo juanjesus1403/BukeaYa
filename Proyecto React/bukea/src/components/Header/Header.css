@@ -1,6 +1,8 @@
 .cabecera {
     background-color: aqua;
-    color: white;
-    height: 100px
+    color: rgb(8, 8, 8);
+    height: 100px;
+    font-family: fantasy;
+    
 
 }
