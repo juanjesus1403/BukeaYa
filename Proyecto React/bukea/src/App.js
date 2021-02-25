@@ -14,19 +14,23 @@ import "./components/Formulario/Formulario.css"
 
 
 
+
 export default function App() {
+
+ 
+
   return (
     <div>
           <Header/>
           <Navbar/>
   
   <main>
-    {/* <div className="container-fluid text-center tarjetas  ">
-      <div className="row"> */}
+    <div className="container-fluid text-center tarjetas  ">
+      <div className="row">
         <div className="col-12 tarjetas" >
           <Cards/>
-        {/* </div>
-      </div> */}
+        </div>
+      </div>
     </div>
 
     <div className="container-fluid text-center registro my-2">

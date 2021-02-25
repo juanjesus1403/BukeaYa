@@ -10,10 +10,10 @@ export default function Navbar() {
                 <a className="nav-link active" aria-current="page" href="#">Inicio</a>
                 </li>
                 <li className="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">¿Quiénes Somos?</a>
+                <a className="nav-link active" aria-current="page" href="#">¿Quiénes Somos?</a>
                 </li>
                 <li className="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Empresas Asociadas</a>
+                <a className="nav-link active" aria-current="page" href="#">Empresas Asociadas</a>
                 </li>
                 <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">Regístrate</a>
